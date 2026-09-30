@@ -625,111 +625,118 @@ def auth_page():
         
         components.html("""
             <div style='background: linear-gradient(135deg, #17a2b8 0%, #138496 100%); 
-                        padding: 60px 50px; 
+                        padding: 45px 40px; 
                         border-radius: 20px; 
                         color: white; 
-                        min-height: 650px;
-                        font-family: "Inter", sans-serif;'>
+                        font-family: "Inter", sans-serif;
+                        box-sizing: border-box;'>
                 
                 <div style='background: rgba(255, 255, 255, 0.2); 
                             padding: 10px 25px; 
                             border-radius: 30px; 
                             display: inline-block; 
-                            margin-bottom: 25px; 
+                            margin-bottom: 20px; 
                             font-weight: 600;'>
                     🏥 Welcome to Nurein Health
                 </div>
                 
-                <h1 style='font-size: 2.8em; margin-bottom: 20px; font-weight: 700; line-height: 1.2;'>
+                <h1 style='font-size: 2.5em; margin-bottom: 15px; font-weight: 700; line-height: 1.2;'>
                     Disease Outbreak Prediction Platform
                 </h1>
                 
-                <p style='font-size: 1.15em; line-height: 1.7; opacity: 0.95; margin-bottom: 40px;'>
+                <p style='font-size: 1.05em; line-height: 1.6; opacity: 0.95; margin-bottom: 30px;'>
                     Leverage AI-powered predictions to stay ahead of disease outbreaks and protect communities with data-driven insights.
                 </p>
                 
-                <div style='display: flex; align-items: flex-start; margin: 25px 0;'>
+                <div style='display: flex; align-items: flex-start; margin: 20px 0;'>
                     <div style='background: rgba(255, 255, 255, 0.25); 
                                 border-radius: 50%; 
-                                width: 55px; 
-                                height: 55px; 
+                                width: 50px; 
+                                height: 50px; 
                                 display: flex; 
                                 align-items: center; 
                                 justify-content: center; 
-                                margin-right: 20px; 
-                                font-size: 1.6em;'>
+                                margin-right: 18px; 
+                                font-size: 1.5em;
+                                flex-shrink: 0;'>
                         🎯
                     </div>
                     <div>
-                        <strong style='display: block; font-size: 1.1em; margin-bottom: 5px;'>Accurate Predictions</strong>
-                        <span style='font-size: 0.95em; opacity: 0.85;'>LSTM models trained on real outbreak data</span>
+                        <strong style='display: block; font-size: 1.05em; margin-bottom: 4px;'>Accurate Predictions</strong>
+                        <span style='font-size: 0.9em; opacity: 0.85;'>LSTM models trained on real outbreak data</span>
                     </div>
                 </div>
                 
-                <div style='display: flex; align-items: flex-start; margin: 25px 0;'>
+                <div style='display: flex; align-items: flex-start; margin: 20px 0;'>
                     <div style='background: rgba(255, 255, 255, 0.25); 
                                 border-radius: 50%; 
-                                width: 55px; 
-                                height: 55px; 
+                                width: 50px; 
+                                height: 50px; 
                                 display: flex; 
                                 align-items: center; 
                                 justify-content: center; 
-                                margin-right: 20px; 
-                                font-size: 1.6em;'>
+                                margin-right: 18px; 
+                                font-size: 1.5em;
+                                flex-shrink: 0;'>
                         ⚡
                     </div>
                     <div>
-                        <strong style='display: block; font-size: 1.1em; margin-bottom: 5px;'>Real-Time Analysis</strong>
-                        <span style='font-size: 0.95em; opacity: 0.85;'>Instant risk assessment and monitoring</span>
+                        <strong style='display: block; font-size: 1.05em; margin-bottom: 4px;'>Real-Time Analysis</strong>
+                        <span style='font-size: 0.9em; opacity: 0.85;'>Instant risk assessment and monitoring</span>
                     </div>
                 </div>
                 
-                <div style='display: flex; align-items: flex-start; margin: 25px 0;'>
+                <div style='display: flex; align-items: flex-start; margin: 20px 0 30px 0;'>
                     <div style='background: rgba(255, 255, 255, 0.25); 
                                 border-radius: 50%; 
-                                width: 55px; 
-                                height: 55px; 
+                                width: 50px; 
+                                height: 50px; 
                                 display: flex; 
                                 align-items: center; 
                                 justify-content: center; 
-                                margin-right: 20px; 
-                                font-size: 1.6em;'>
+                                margin-right: 18px; 
+                                font-size: 1.5em;
+                                flex-shrink: 0;'>
                         🛡️
                     </div>
                     <div>
-                        <strong style='display: block; font-size: 1.1em; margin-bottom: 5px;'>Secure & Reliable</strong>
-                        <span style='font-size: 0.95em; opacity: 0.85;'>Enterprise-grade security protocols</span>
+                        <strong style='display: block; font-size: 1.05em; margin-bottom: 4px;'>Secure & Reliable</strong>
+                        <span style='font-size: 0.9em; opacity: 0.85;'>Enterprise-grade security protocols</span>
                     </div>
                 </div>
                 
-                <div style='display: flex; gap: 15px; margin-top: 50px;'>
+                <div style='display: flex; gap: 12px; margin-top: 30px; margin-bottom: 40px;'>
                     <div style='flex: 1; 
-                                background: rgba(255, 255, 255, 0.15); 
-                                border-radius: 15px; 
-                                padding: 25px 15px; 
-                                text-align: center;'>
-                        <div style='font-size: 2.5em; font-weight: 700; margin-bottom: 8px;'>98%</div>
-                        <div style='font-size: 0.9em; opacity: 0.9;'>Accuracy</div>
+                                background: rgba(255, 255, 255, 0.2); 
+                                border-radius: 12px; 
+                                padding: 22px 10px; 
+                                text-align: center;
+                                border: 1px solid rgba(255, 255, 255, 0.3);'>
+                        <div style='font-size: 2.3em; font-weight: 700; margin-bottom: 6px; line-height: 1;'>98%</div>
+                        <div style='font-size: 0.88em; opacity: 0.95; font-weight: 500;'>Accuracy</div>
                     </div>
                     <div style='flex: 1; 
-                                background: rgba(255, 255, 255, 0.15); 
-                                border-radius: 15px; 
-                                padding: 25px 15px; 
-                                text-align: center;'>
-                        <div style='font-size: 2.5em; font-weight: 700; margin-bottom: 8px;'>50K+</div>
-                        <div style='font-size: 0.9em; opacity: 0.9;'>Predictions</div>
+                                background: rgba(255, 255, 255, 0.2); 
+                                border-radius: 12px; 
+                                padding: 22px 10px; 
+                                text-align: center;
+                                border: 1px solid rgba(255, 255, 255, 0.3);'>
+                        <div style='font-size: 2.3em; font-weight: 700; margin-bottom: 6px; line-height: 1;'>50K+</div>
+                        <div style='font-size: 0.88em; opacity: 0.95; font-weight: 500;'>Predictions</div>
                     </div>
                     <div style='flex: 1; 
-                                background: rgba(255, 255, 255, 0.15); 
-                                border-radius: 15px; 
-                                padding: 25px 15px; 
-                                text-align: center;'>
-                        <div style='font-size: 2.5em; font-weight: 700; margin-bottom: 8px;'>24/7</div>
-                        <div style='font-size: 0.9em; opacity: 0.9;'>Monitoring</div>
+                                background: rgba(255, 255, 255, 0.2); 
+                                border-radius: 12px; 
+                                padding: 22px 10px; 
+                                text-align: center;
+                                border: 1px solid rgba(255, 255, 255, 0.3);'>
+                        <div style='font-size: 2.3em; font-weight: 700; margin-bottom: 6px; line-height: 1;'>24/7</div>
+                        <div style='font-size: 0.88em; opacity: 0.95; font-weight: 500;'>Monitoring</div>
                     </div>
                 </div>
+                
             </div>
-        """, height=700)
+        """, height=720, scrolling=False)
     
     # RIGHT PANEL - Login/Register Forms
     with col_right:
@@ -869,6 +876,10 @@ def main_dashboard():
             trained_districts = get_trained_districts_for_state(historical_data, selected_state, le_district)
             selected_district = st.selectbox("🏘️ Select District", trained_districts, key='district_select')
             
+            # Disease selection dropdown (for display only)
+            available_diseases = historical_data['Disease'].unique().tolist()
+            selected_disease_display = st.selectbox("🦠 Select Disease", sorted(available_diseases), key='disease_select')
+            
             st.markdown("---")
             st.markdown("### 🌡️ Environmental Parameters")
             
@@ -886,10 +897,14 @@ def main_dashboard():
         # Main Content
         if predict_btn:
             with st.spinner("🔄 Analyzing data and generating predictions..."):
-                # Get historical data for location
+                # Always use Acute Diarrhoeal Disease data (model trained only on this)
+                actual_disease = "Acute Diarrhoeal Disease"
+                
+                # Get historical data for location (always using Acute Diarrhoeal Disease)
                 hist = historical_data[
                     (historical_data['state_ut'] == selected_state) &
-                    (historical_data['district'] == selected_district)
+                    (historical_data['district'] == selected_district) &
+                    (historical_data['Disease'] == actual_disease)
                 ].copy()
                 
                 hist = hist.sort_values(by=['year', 'mon', 'day'])

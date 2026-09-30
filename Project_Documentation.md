@@ -75,5 +75,3 @@ The project follows a modular MLOps pipeline structure:
 *   Expansion to multi-disease simultaneous prediction.
 *   Geospatial mapping of risk radii using district centroids.
 
----
-*Generated for the Disease Outbreak Prediction Platform Viva/Capstone Project.*
