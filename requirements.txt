@@ -1,6 +1,3 @@
-
-tensorflow
-keras
 streamlit
 plotly
 pandas
