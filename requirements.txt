@@ -1,6 +1,6 @@
 
-tensorflow==2.19.0
-keras==3.6.0
+tensorflow
+keras
 streamlit==1.38.0
 plotly==5.24.1
 pandas==2.3.3
